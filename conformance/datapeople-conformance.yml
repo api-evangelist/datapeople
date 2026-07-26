@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://datapeople.io/security/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'Security page states: "Datapeople is SOC2 Type II Certified"'
+  source: https://datapeople.io/security/
+- id: iso-27000-series
+  conforms: false
+  evidence: NIST ISO 27000 series referenced as an information security framework, not
+    claimed as a certification
+  source: https://datapeople.io/security/
+- id: gdpr
+  conforms: false
+  evidence: EU data privacy addressed via Data Privacy Officer; no explicit certification
+    claim
+  source: https://datapeople.io/security/
