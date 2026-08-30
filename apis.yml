@@ -60,6 +60,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/payscale/
+  name: PayScale
+  x-relationship: acquired
+  x-evidence: "Datapeople is an AI-powered job description management platform (acquired by PayScale) that helps talent and recruiting teams centralize, standardize, and optimize their job content across the hiring workflow."
 - type: DomainSecurity
   url: security/datapeople-domain-security.yml
 - type: Website
