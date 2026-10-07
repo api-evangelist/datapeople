@@ -1,0 +1,38 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://datapeople.io/pricing/
+sources:
+- https://datapeople.io/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Pricing page lists three tiers (Comply, Architect,
+  Attract) with no numeric prices; only 'Request Custom Pricing'. Page states plans typically support
+  unlimited hiring manager collaboration and no training/implementation fees.
+plan_count: 3
+plans:
+- name: Comply
+  price_text: Request Custom Pricing
+  period: none
+  included_quota: Custom brand guidelines; Real-time pay transparency monitoring; EVP Monitoring; Automated
+    audit-ready repository; Anti-bias monitoring
+- name: Architect
+  price_text: Request Custom Pricing
+  period: none
+  included_quota: Everything in Comply PLUS market data and job comparisons, ATS/HRIS browser extension
+    and API integrations, First Draft AI job builder, job repository and search, version control and audit
+    trails
+- name: Attract
+  price_text: Request Custom Pricing
+  period: none
+  included_quota: Everything in Architect PLUS JD to job ad creation workflow, Flagship Jobs and company
+    Templates, hiring team collaboration, recruitment marketing optimization, content and funnel insights
